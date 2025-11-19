@@ -1,0 +1,11 @@
+.:53 {
+    log
+    errors
+}
+
+mytest.local {
+    file /zones/mytest.local.zone mytest.local
+    log
+    reload 5s
+}
+
