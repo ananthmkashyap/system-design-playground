@@ -16,3 +16,8 @@ It is intended as a system-design learning project to show how DNS works interna
 ```docker
 docker compose up -d
 ```
+
+2. Use dig to test DNS resolution:
+```dig
+dig @127.0.0.1 -p 5353 www.mytest.local A +noall +answer
+```
