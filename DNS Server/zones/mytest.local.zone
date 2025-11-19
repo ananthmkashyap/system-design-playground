@@ -1,6 +1,6 @@
 $TTL 60
 @   IN  SOA  ns1.mytest.local. admin.mytest.local. (
-        2025111902 ; serial YYYYMMDDnn
+        2025111902 ; serial
         3600       ; refresh (seconds)
         900        ; retry
         604800     ; expire
