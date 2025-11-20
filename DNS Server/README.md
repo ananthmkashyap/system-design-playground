@@ -11,7 +11,7 @@ It is intended as a system-design learning project to show how DNS works interna
 4. Local DNS resolution using dig
 5. A clear demonstration of how authoritative DNS works end-to-end
 
-### How to Use:
+## Running the Project:
 1. Run CoreDNS with:
 ```docker
 docker compose up -d
